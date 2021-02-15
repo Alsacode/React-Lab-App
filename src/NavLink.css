@@ -1,0 +1,40 @@
+.navlinks{
+
+background-color: #001f3fce;
+height: 39px;
+color: whitesmoke;
+
+
+}
+
+
+.navlinks_out{
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+}
+
+.navlinks_out a {
+    color: whitesmoke;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 2px;
+    margin: 20px;
+   
+}
+
+.navlinks_out a:hover {
+    color: rgb(255, 190, 10);
+   border: 1px solid white;
+   border-radius: 5px;
+}
+
+.navlinks_out a:active {
+    color: rgb(66, 146, 250);
+    border: 1px solid rgb(66, 146, 250);
+    border-radius: 5px;
+}
+
+.navlinks_inner{
+    margin-top: -2px;
+}

@@ -1,0 +1,95 @@
+.footer{
+    background-color: #001f3f;
+    width: 100%;
+    min-height: 200px;
+    color: whitesmoke;
+
+}
+
+.footer_top{
+    background-color: #004b91;
+    min-height: 60px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+}
+.footer_top > P {
+    font-size: 15px;
+    border: 2px solid #001f3f;
+}
+
+.footer_top a {
+     color: whitesmoke;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.footer_top a:hover {
+    color: rgb(255, 190, 10);
+    border: 1px solid rgb(66, 146, 250);
+    border-radius: 5px;
+}
+
+.footer_top a:active {
+    color: rgb(66, 146, 250);
+    border: 1px solid rgb(66, 146, 250);
+    border-radius: 5px;
+}
+
+
+.footer_img{
+    margin: 10px;
+    padding: 5px;
+    height: 70px;
+    border: 3px solid #001f3f;
+    border-radius: 5px;
+    
+    
+}
+
+.footer_links{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+}
+
+
+.footer_linkarea{
+    width: 100%;
+    margin: 5px auto;
+   padding-left: 20px;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    height: 20px;
+
+}
+
+.footer_linkarea a {
+    color: whitesmoke;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 5px;
+    height: 20px;
+
+}
+
+.footer_linkarea a:hover {
+    color: rgb(255, 190, 10);
+    border: 1px solid rgb(66, 146, 250);
+    border-radius: 5px;
+}
+
+.footer_linkarea a:active{
+    color: rgb(66, 146, 250);
+    border: 1px solid rgb(66, 146, 250);
+    border-radius: 5px;
+}
+
+
+ 

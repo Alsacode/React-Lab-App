@@ -1,0 +1,40 @@
+
+
+.productcart{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+
+}
+
+
+.productcart_image{
+    object-fit: contain;
+    width: 160px;
+    height: 160px;
+    border:1px solid #cccccc;
+    
+}
+
+.productcart_info{
+    padding-left: 25px;
+
+}
+
+.productcart_info > button {
+    background-color: white;
+    border: 1px solid;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.productcart_info > button:hover{
+    color: rgb(255, 190, 10);
+    border: 2px solid rgb(66, 146, 250);
+}
+
+.productcart_info > button:active{
+    color: rgb(66, 146, 250);
+    border: 2px solid rgb(255, 190, 10);
+}
